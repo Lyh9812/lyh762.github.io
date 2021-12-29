@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Clash for Windows科学上网 | Gridea</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://lyh9812.github.io/lyh762.github.io//favicon.ico?v=1640742598163">
+<link rel="stylesheet" href="https://lyh9812.github.io/lyh762.github.io//styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="下载和安装 Clash for Windows
+原版Clash for Windows的Github发布地址：https://github.com/Fndroid/clash_for_windows_pkg/releases
+下载后解压压缩..." />
+    <meta name="keywords" content="CFW" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://lyh9812.github.io/lyh762.github.io/">
+        <img src="https://lyh9812.github.io/lyh762.github.io//images/avatar.png?v=1640742598163" class="site-logo">
+        <h1 class="site-title">Gridea</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://lyh9812.github.io/lyh762.github.io/clash-for-windows-ke-xue-shang-wang" class="site-nav" target="_blank">
+            使用教程
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://lyh9812.github.io/lyh762.github.io/" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Yihan Li</a> | <a class="rss" href="https://lyh9812.github.io/lyh762.github.io//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Clash for Windows科学上网</h2>
+            <div class="post-date">2021-12-29</div>
+            
+              <div class="feature-container" style="background-image: url('data:image/png;base64,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')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p>下载和安装 Clash for Windows<br>
+原版Clash for Windows的Github发布地址：https://github.com/Fndroid/clash_for_windows_pkg/releases<br>
+下载后解压压缩包</p>
+<p>使用教程<br>
+双击打开解压后的文件夹，找到Clash for Windows.exe文件，双击运行，之后在任务栏的显示隐藏图标中可以看到蓝色的小猫咪图标。<br>
+在左侧的标签页中选择「Profiles」， 在顶部输入您的 Clash 订阅链接 ，然后点击「Download」按钮。<br>
+Clash for Windows 会自动拉取配置文件进行更新，如果一切顺利，你应当可以看到绿色提示信息「Success!」，并且可以看到一个新增的配置文件：<br>
+点击新增的配置文件来切换到该配置，然后点击「Proxies」标签页来切换接入点，将顶部的出站模式选择为「Rule」。<br>
+启动 Clash for Windows<br>
+返回到「General」部分，将「System Proxy」的开关更改为绿色状态即可开始使用。</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://lyh9812.github.io/lyh762.github.io/DAXFN96UC/" class="tag">
+                    CFW
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://lyh9812.github.io/lyh762.github.io/v2rayn-ke-xue-shang-wang/">
+                  <h3 class="post-title">
+                    v2rayN科学上网
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>

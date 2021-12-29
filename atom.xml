@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lyh9812.github.io/lyh762.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-12-29T01:19:07.952Z</updated>
+    <updated>2021-12-29T01:50:14.743Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lyh9812.github.io/lyh762.github.io/"/>
     <link rel="self" href="https://lyh9812.github.io/lyh762.github.io/atom.xml"/>
@@ -10,6 +10,43 @@
     <logo>https://lyh9812.github.io/lyh762.github.io/images/avatar.png</logo>
     <icon>https://lyh9812.github.io/lyh762.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[Clash for Windows科学上网]]></title>
+        <id>https://lyh9812.github.io/lyh762.github.io/clash-for-windows-ke-xue-shang-wang/</id>
+        <link href="https://lyh9812.github.io/lyh762.github.io/clash-for-windows-ke-xue-shang-wang/">
+        </link>
+        <updated>2021-12-29T01:43:35.000Z</updated>
+        <content type="html"><![CDATA[<p>下载和安装 Clash for Windows<br>
+原版Clash for Windows的Github发布地址：https://github.com/Fndroid/clash_for_windows_pkg/releases<br>
+下载后解压压缩包</p>
+<p>使用教程<br>
+双击打开解压后的文件夹，找到Clash for Windows.exe文件，双击运行，之后在任务栏的显示隐藏图标中可以看到蓝色的小猫咪图标。<br>
+在左侧的标签页中选择「Profiles」， 在顶部输入您的 Clash 订阅链接 ，然后点击「Download」按钮。<br>
+Clash for Windows 会自动拉取配置文件进行更新，如果一切顺利，你应当可以看到绿色提示信息「Success!」，并且可以看到一个新增的配置文件：<br>
+点击新增的配置文件来切换到该配置，然后点击「Proxies」标签页来切换接入点，将顶部的出站模式选择为「Rule」。<br>
+启动 Clash for Windows<br>
+返回到「General」部分，将「System Proxy」的开关更改为绿色状态即可开始使用。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v2rayN科学上网]]></title>
+        <id>https://lyh9812.github.io/lyh762.github.io/v2rayn-ke-xue-shang-wang/</id>
+        <link href="https://lyh9812.github.io/lyh762.github.io/v2rayn-ke-xue-shang-wang/">
+        </link>
+        <updated>2021-12-29T01:23:45.000Z</updated>
+        <content type="html"><![CDATA[<p>下载地址： https://github.com/2dust/v2rayN/releases<br>
+下载后解压压缩包<br>
+使用教程<br>
+双击打开解压后的文件夹，找到v2rayn.exe文件，双击运行<br>
+之后在任务栏的显示隐藏图标中可以看到蓝色的V图标<br>
+左键单击蓝色的V图标，在主界面的订阅-订阅设置，点击添加，粘贴v2ray订阅地址，填写备注等信息（备注随意填）。注意勾选启用，然后保存。<br>
+点击设置-路由设置，点击基础功能-一键导入基础规则，勾选启用路由高级规则，点击确定。<br>
+更新订阅<br>
+点击主界面的订阅-更新订阅，等待几秒钟即可。<br>
+启用节点<br>
+在主界面中左键点击节点回车，右键任务栏v2rayN图标，系统代理选择自动配置系统代理或不改变系统代理，路由选择全局或绕过中国大陆，如果图标变成红色或者紫色，此时已经可以使用本站提供的服务了。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[科学上网]]></title>
         <id>https://lyh9812.github.io/lyh762.github.io/ke-xue-shang-wang/</id>
@@ -27,38 +64,6 @@
 准确来说，翻墙确实是非法的，但如果仅仅因为翻墙警察就去抓人，估计有几千万人要抓。翻墙的人群主要有：高校的老师、留学生、外贸从业者、互联网开发人员几类。虽然有翻墙被抓的案例，但正常查看gamil、google搜索资料、看YouTube不用很担心。</p>
 <p>免费VPN、免费节点<br>
 被分享到国内公网上的所谓“免费VPN”，“免费节点”很少可靠的，省钱没错，但使用来源不可靠的网站上分享的东西，会给你上网带来风险，你的上网隐私可能被泄漏，你可能丢失敏感信息，如密码，验证码，银行账号等。不是说所有免费的东西都这样，但在你安装客户端或把它们导入配置之前还是多长个心眼。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://lyh9812.github.io/lyh762.github.io/hello-gridea/</id>
-        <link href="https://lyh9812.github.io/lyh762.github.io/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://lyh9812.github.io/lyh762.github.io/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
