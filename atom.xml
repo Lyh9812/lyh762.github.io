@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lyh9812.github.io/lyh762.github.io/</id>
+    <title>Gridea</title>
+    <updated>2021-12-29T01:19:07.952Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://lyh9812.github.io/lyh762.github.io/"/>
+    <link rel="self" href="https://lyh9812.github.io/lyh762.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://lyh9812.github.io/lyh762.github.io/images/avatar.png</logo>
+    <icon>https://lyh9812.github.io/lyh762.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[科学上网]]></title>
+        <id>https://lyh9812.github.io/lyh762.github.io/ke-xue-shang-wang/</id>
+        <link href="https://lyh9812.github.io/lyh762.github.io/ke-xue-shang-wang/">
+        </link>
+        <updated>2021-12-29T01:01:52.000Z</updated>
+        <content type="html"><![CDATA[<p>我们都知道，在中国大陆正常情况下是无法访问和使用国外的网站或软件，例如google、Facebook、YouTube等，所以需要科学上网，我们称之为梯子。无法正常访问外网是因为长城防火墙，英文全称 Great firewall ，也有人称之为 墙或GFW，那 GFW 就是 Great firewall 的英文缩写。</p>
+<p>“墙” 是针对中国大陆境内的互联网所创建的审查系统的统称。当用户访问在长城防火墙列表中的网站或者服务器 IP 时，墙就会去封阻与服务器的通讯、用户就会无法访问目标网站，那翻墙或科学上网，就是使用特殊的工具 / 方法，去浏览被屏蔽的网站或使用服务的行为。</p>
+<p>墙的原理<br>
+以浏览网页为例，当我们要访问一个网站的时候，其实是访问网站对应 IP 地址的服务器网站数据。 在浏览器输入网站的网址后；电脑就会向我们宽带运营商的 DNS 服务器发起请求，DNS 服务器找到网址对应的服务器 IP 地址，并向这个服务器发送数据的请求；当目标服务器收到请求后，就把数据回传给我们，就这样子我们就可以打开这个网站。</p>
+<p>VPN和机场<br>
+最开始，我也是使用从谷歌商店下载的免费vpn app，但稳定性比较差。也有一些专门开发vpn的公司，开发的稳定的vpn，在加密程度和对用户的保密性方面都做的很好，不过这些vpn是收费的，价格也不便宜。除了vpn还有机场，机场是指一些提供特殊的、一私密方式上网的平台，这些平台通常和采用ss、ssr、vmess、Trojan的协议，之所以称为机场是因为提供这种服务的平台最早使用的客户端是一个有小飞机的图标。<br>
+相比机场，vpn在安全性和加密程度上都要高于机场，但对于个人用户来说，使用机场足够了。</p>
+<p>翻墙是否违法？<br>
+准确来说，翻墙确实是非法的，但如果仅仅因为翻墙警察就去抓人，估计有几千万人要抓。翻墙的人群主要有：高校的老师、留学生、外贸从业者、互联网开发人员几类。虽然有翻墙被抓的案例，但正常查看gamil、google搜索资料、看YouTube不用很担心。</p>
+<p>免费VPN、免费节点<br>
+被分享到国内公网上的所谓“免费VPN”，“免费节点”很少可靠的，省钱没错，但使用来源不可靠的网站上分享的东西，会给你上网带来风险，你的上网隐私可能被泄漏，你可能丢失敏感信息，如密码，验证码，银行账号等。不是说所有免费的东西都这样，但在你安装客户端或把它们导入配置之前还是多长个心眼。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://lyh9812.github.io/lyh762.github.io/hello-gridea/</id>
+        <link href="https://lyh9812.github.io/lyh762.github.io/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://lyh9812.github.io/lyh762.github.io/">Gridea 主页</a><br>
+<a href="http://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
